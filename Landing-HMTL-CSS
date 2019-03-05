@@ -1,0 +1,9 @@
+<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+
+<html>
+  <header id="header">
+    <img src="https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/8a2a7734671255.56d8fac1ea699.jpg" id="header-img" width="200" height="150" alt="logo"></img>
+    <nav id="nav-bar">
+    </nav>
+  </header>
+</html>
