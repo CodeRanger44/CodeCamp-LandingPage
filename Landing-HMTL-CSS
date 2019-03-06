@@ -3,12 +3,38 @@
 <html>
   <style>
     header {
+      background-color: #b38600;
+      display: flex;
+    }
+    .logo {
+      margin-left: 2px;
+    }
+    .nav-bar {
+      text-align: center;
+      font-size: 20px;
+      display: flex;
+      flex-direction: column;
+    }
+    li {
+      list-style: none;
+      padding: 13px;
+    }
+    ul {
+      display: flex;
+    }
+    body {
       background-color: tan;
     }
   </style>
   <header id="header">
-    <img src="https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/8a2a7734671255.56d8fac1ea699.jpg" id="header-img" width="200" height="150" alt="logo"></img>
-    <nav id="nav-bar">
-    </nav>
+    <img class="logo" src="https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/8a2a7734671255.56d8fac1ea699.jpg" id="header-img" width="200" height="140" alt="logo"></img>
+   <nav class="nav-bar" id="nav-bar">
+   <ul>
+     <li><a class="active" href="#home">Home</a></li>
+     <li><a class:="nav-link" href="#About Wood">About Wood</a></li>
+     <li><a class="nav-link" href="#Prices">Prices</a></li>
+     <li><a class="nav-link" href="#about">About the Company</a></li>
+     <li><a class="nav-link" href="#Contact Us">Contact Us</a></li>
+</nav>
   </header>
 </html>
