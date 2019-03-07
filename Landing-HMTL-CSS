@@ -25,16 +25,46 @@
     body {
       background-color: tan;
     }
+    iframe {
+      display: flex;
+      margin-left: 220px; 
+    }
+    h2 {
+      margin-left: 350px;
+    }
+    form {
+      margin-left: 300px;
+    }
   </style>
   <header id="header">
     <img class="logo" src="https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/8a2a7734671255.56d8fac1ea699.jpg" id="header-img" width="200" height="140" alt="logo"></img>
    <nav class="nav-bar" id="nav-bar">
    <ul>
      <li><a class="active" href="#home">Home</a></li>
-     <li><a class:="nav-link" href="#About Wood">About Wood</a></li>
+     <li><a class:="nav-link" href="#video">Stiffness</a></li>
      <li><a class="nav-link" href="#Prices">Prices</a></li>
      <li><a class="nav-link" href="#about">About the Company</a></li>
-     <li><a class="nav-link" href="#Contact Us">Contact Us</a></li>
+     <li><a class="nav-link" href="#sing-up">Sign-Up</a></li>
 </nav>
   </header>
+  <br><br>
+  <div>
+    <h2>All About How I Got Wood</h2>
+    <p>
+      It 
+    </P>
+  </div>
+  <br><br>
+  <div>
+    <h2>Sign-Up for the Newsletter</h2>
+    <form class="sign-up" id="form">
+        Email: <input id="email" type="email" placeholder="big.wood@hard.org" required>
+      <button id="submit" type="submit">Sign-Up for a lot of wood
+    </form>
+  </div>
+  <br><br>
+  <div>
+    <h2>How Hard is Your Wood?</h2>
+    <iframe class="video" id="video" width="560" height="315" src="https://www.youtube.com/embed/CI39sMIy6mE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  </div>
 </html>
