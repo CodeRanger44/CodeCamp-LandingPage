@@ -33,9 +33,9 @@
       margin-left: 350px;
     }
     form {
-      margin-left: 300px;
+      margin-left: 350px;
     }
-  </style>
+   </style>
   <header id="header">
     <img class="logo" src="https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/8a2a7734671255.56d8fac1ea699.jpg" id="header-img" width="200" height="140" alt="logo"></img>
    <nav class="nav-bar" id="nav-bar">
@@ -67,7 +67,8 @@
     <h2 class="signup">Sign-Up for the Newsletter</h2>
     <form id="form">
         Email: <input id="email" type="email" placeholder="big.wood@hard.org" required>
-      <button id="submit" type="submit">Sign-Up for a LOT of wood
+      <input id="submit" type="submit">
+      </input>
     </form>
   </div>
   <br><br>
