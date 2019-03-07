@@ -41,16 +41,15 @@
    <nav class="nav-bar" id="nav-bar">
    <ul>
      <li><a class="active" href="#home">Home</a></li>
-     <li><a class:="nav-link" href="#video">Stiffness</a></li>
-     <li><a class="nav-link" href="#Prices">Prices</a></li>
+     <li><a class="nav-link" href="#video">Stiffness</a></li>
+     <li><a class="nav-link" href="#prices">Prices</a></li>
      <li><a class="nav-link" href="#about">About the Company</a></li>
-     <li><a class="nav-link"
-href="#sign-up">Sign-Up</a></li>
+     <li><a class="nav-link" href="#email">Sign-Up</a></li>   
 </nav>
   </header>
   <br><br>
   <div>
-    <h2 class="about">All About How I Got Wood</h2>
+    <h2 class="about" id="about">All About How I Got Wood</h2>
     <p>
       It all started when I was 8...Λορεμ ιπσθμ δολορ σιτ αμετ, ιθσ διcο δολορ τε, νεc τε ποπθλο ποστεα qθαεqθε. Ει ηασ vολθπταρια ινcιδεριντ, vιμ αδ περcιπιτ παρτιενδο αccομμοδαρε, θσθ ατ λορεμ σεντεντιαε. Νθμqθαμ vολθτπατ ατ cθμ. Μελ εσσεντ δενιqθε επιcθρει αν, εσσε σαλε ρεcτεqθε νο εαμ, θτ σεδ ρεβθμ σπλενδιδε δεσερθισσε. Λεγιμθσ αλιενθμ σαλθτανδι qθο ει, δελενιτ ινδοcτθμ ιθδιcαβιτ ετ cθμ. Ιν εθμ φαcιλισι σαπιεντεμ δισσεντιασ.
 <br><br>
@@ -65,8 +64,8 @@ href="#sign-up">Sign-Up</a></li>
   </div>
   <br><br>
   <div>
-    <h2 >Sign-Up for the Newsletter</h2>
-    <form class="sign-up" id="form">
+    <h2 class="signup">Sign-Up for the Newsletter</h2>
+    <form id="form">
         Email: <input id="email" type="email" placeholder="big.wood@hard.org" required>
       <button id="submit" type="submit">Sign-Up for a LOT of wood
     </form>
@@ -76,4 +75,15 @@ href="#sign-up">Sign-Up</a></li>
     <h2>How Hard is Your Wood?</h2>
     <iframe class="video" id="video" width="560" height="315" src="https://www.youtube.com/embed/CI39sMIy6mE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
   </div>
+    <br><br>
+    <div>
+      <h2 id="prices">Pricing Structure</h2>
+      <ul class="sizes">
+        <li class="micro">Micro - $1</li>
+        <li class="small">Small - $3</li>
+        <li class="medium">Medium - $5</li>
+        <li class="above">Above Average - $8</li>
+        <li class="ouch">Ouch - $13</li>
+      </ul>
+    </div>
 </html>
