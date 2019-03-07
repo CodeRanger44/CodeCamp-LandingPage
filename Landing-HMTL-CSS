@@ -44,22 +44,31 @@
      <li><a class:="nav-link" href="#video">Stiffness</a></li>
      <li><a class="nav-link" href="#Prices">Prices</a></li>
      <li><a class="nav-link" href="#about">About the Company</a></li>
-     <li><a class="nav-link" href="#sing-up">Sign-Up</a></li>
+     <li><a class="nav-link"
+href="#sign-up">Sign-Up</a></li>
 </nav>
   </header>
   <br><br>
   <div>
-    <h2>All About How I Got Wood</h2>
+    <h2 class="about">All About How I Got Wood</h2>
     <p>
-      It 
+      It all started when I was 8...Λορεμ ιπσθμ δολορ σιτ αμετ, ιθσ διcο δολορ τε, νεc τε ποπθλο ποστεα qθαεqθε. Ει ηασ vολθπταρια ινcιδεριντ, vιμ αδ περcιπιτ παρτιενδο αccομμοδαρε, θσθ ατ λορεμ σεντεντιαε. Νθμqθαμ vολθτπατ ατ cθμ. Μελ εσσεντ δενιqθε επιcθρει αν, εσσε σαλε ρεcτεqθε νο εαμ, θτ σεδ ρεβθμ σπλενδιδε δεσερθισσε. Λεγιμθσ αλιενθμ σαλθτανδι qθο ει, δελενιτ ινδοcτθμ ιθδιcαβιτ ετ cθμ. Ιν εθμ φαcιλισι σαπιεντεμ δισσεντιασ.
+<br><br>
+Λορεμ νοvθμ ερρεμ εξ ηασ. Νιβη σαπερετ ναμ νε. Ιδ μει σεμπερ σcριβεντθρ, δθο cθ ιλλθμ ελειφενδ ιντελλεγαμ. Cασε δολορ εθ δθο, vισ ετ διcθντ αccθσαμθσ. Qθο γραεcε ελοqθεντιαμ δετερρθισσετ ατ, vιξ ιδ αλβθcιθσ γλοριατθρ. Μει μθτατ σcριβεντθρ ιν. Δολορεσ ταcιματεσ εξ ναμ.
+<br><br>
+Νισλ αεqθε αδιπισcινγ εξ cθμ, ιδ ναμ ενιμ μθνδι αφφερτ, αδ γραεcισ πλατονεμ εθμ. Εξ δθο ιλλθμ αλιενθμ δεσερθισσε, ατ εστ δολορε γραεcισ. Τε qθο πηαεδρθμ τινcιδθντ. Δθο μοδο πριμα νε, πθταντ ρεcθσαβο ρεπρεηενδθντ ιδ σεα, αδ απεριαμ δεφινιτιονεσ μελ. Εθμ εθ θτροqθε περφεcτο. Vερο λεγενδοσ δεφινιτιονεσ εθ vιξ, vιμ αν ομνισ οcθρρερετ. Ιδ προ vεριτθσ αδιπισcινγ cονστιτθαμ.
+<br><br>
+Ηασ ιντεγρε αδιπισcινγ θτ, νεc ει αμετ γραεcο, vελ cθ σονετ πραεσεντ cονσθλατθ. Δθο αδ μινιμ αππετερε, θβιqθε σcαεvολα σεντεντιαε εστ ει. Τιβιqθε cοτιδιεqθε σιτ τε. Ει vισ πορρο προδεσσετ, ηασ αετερνο αδvερσαριθμ τε, θτ φερρι βρθτε νεc.
+<br><br>
+Εα ειθσ αδιπισcι ποστθλαντ cθμ, νε vερτερεμ λθcιλιθσ σαλθτατθσ vισ. Vιμ νε ιμπετθσ περφεcτο. Cθ αλτερα εqθιδεμ μει, τε μει επιcθρει λθπτατθμ cονστιτθαμ. Ηασ vερο cοντεντιονεσ εξ, ηισ vερεαρ θτροqθε αδ. Νε vισ νοvθμ αccθμσαν, ταcιματεσ vολθπτατιβθσ δεφινιτιονεμ θσθ cθ. And that's how I came to appreciate my wood.
     </P>
   </div>
   <br><br>
   <div>
-    <h2>Sign-Up for the Newsletter</h2>
+    <h2 >Sign-Up for the Newsletter</h2>
     <form class="sign-up" id="form">
         Email: <input id="email" type="email" placeholder="big.wood@hard.org" required>
-      <button id="submit" type="submit">Sign-Up for a lot of wood
+      <button id="submit" type="submit">Sign-Up for a LOT of wood
     </form>
   </div>
   <br><br>
