@@ -7,7 +7,7 @@
       top: 0px;
       left: 0px;
       width: 100%;
-      height: 100px;
+      height: 75px;
       z-index: 10;
       position: fixed;
       display: flex;
@@ -39,14 +39,17 @@
       margin-left: 350px;
     }
     form {
-      margin-left: 350px;
+      margin-left: 325px;
     }
     .pricing {
-      
+    }
+    .sizes {
+      display: flex;
+      margin-left: 11%;
     }
    </style>
   <header id="header">
-    <img class="logo" src="https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/8a2a7734671255.56d8fac1ea699.jpg" id="header-img" width="175" height="100" alt="logo"></img>
+    <img class="logo" src="https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/8a2a7734671255.56d8fac1ea699.jpg" id="header-img" width="150" height="75" alt="logo"></img>
    <nav class="nav-bar" id="nav-bar">
    <ul>
      <li><a class="active" href="#home">Home</a></li>
@@ -76,9 +79,9 @@
   <br><br>
   <div>
     <h2 class="signup">Sign-Up for the Newsletter</h2>
-    <form id="form">
-        Email: <input id="email" type="email" placeholder="big.wood@hard.org" required>
-      <input id="submit" type="submit">
+    <form id="form" action="https://www.freecodecamp.com/email-submit" method="post" name="email">
+        Email: <input id="email" type="email" placeholder="big.wood@hard.org" required name="email">
+      <input id="submit" type="submit" value="Give Me Wood">
       </input>
     </form>
   </div>
