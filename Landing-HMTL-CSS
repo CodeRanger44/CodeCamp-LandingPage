@@ -47,6 +47,12 @@
       display: flex;
       margin-left: 11%;
     }
+    @media screen and (max-width: 600px) {
+  nav {
+    float: none;
+    width: 100%;
+  }
+}
    </style>
   <header id="header">
     <img class="logo" src="https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/8a2a7734671255.56d8fac1ea699.jpg" id="header-img" width="150" height="75" alt="logo"></img>
